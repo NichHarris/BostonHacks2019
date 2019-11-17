@@ -81,6 +81,8 @@ database along with all pictures taken of said person in order for more accurate
 ## Contributors
 
 Rajat Arora
+
 Arash Manpreet Singh
+
 Suthan Sinnathurai 
 
