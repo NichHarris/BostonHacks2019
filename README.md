@@ -1,13 +1,12 @@
 # BostonHacks2019
 
-<<<<<<< HEAD
 Web-based application utilizing Kairos Face Recognition API to store information on missing children and refugees.
 
-###Build status
+## Build status
 
-###Code style
+## Code style
 
-###Running
+## Running
 
 Download or clone the code
 
@@ -33,23 +32,22 @@ After this is complete, to run the program while in 'BostonHacks2019/mysite'
 
 A webpage landing should open
 
-###API Reference
+## API Reference
 
 Reference docs for Kairos Face Recognition API: https://www.kairos.com/docs/api/
  
 
-###Tests
-
+## Tests
+x
 Testing the facial recognition software involves taking a picture with your webcam. If it recognizes a face, and does not contain it in its database currently,
 the program will generate a user info page which he or she will be prompted to fill out. Upon filling out and submitting the information, the users info will be stored in the database along with all pictures taken of said person in order to more accurately identify the person in the future.
 
 
-###Contributors
+## Contributors
 
 <!TODO
 
-###Credits
+## Credits
 
 <!TODO
 =======
->>>>>>> d2413878d05f9428ba47c58986ec6d98bb16ef52
