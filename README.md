@@ -4,7 +4,7 @@ Locate.io is a Web-based application utilizing Kairos Face Recognition API to st
 
 ## Inspiration
 
-While on the bus on our way to the Hackathon, we watched 
+While on the bus on our way to the Hackathon, we watched the movie Lion (2016). This showed us the huge problems refugees and their families experience when they are constantly seperated with little to no way of reconnecting with one another.
 
 ## What it does
 
