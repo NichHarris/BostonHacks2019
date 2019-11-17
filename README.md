@@ -1,44 +1,38 @@
 # BostonHacks2019
 
-Web-based application utilizing Kairos Face Recognition API to store information on missing children and refugees.
+Locate.io is a Web-based application utilizing Kairos Face Recognition API to store information on missing children and refugees.
 
 ## Inspiration
 
-
+While on the bus on our way to the Hackathon, we watched 
 
 ## What it does
 
+Web-app that takes a photograph of a user using the computers webcam. It then compares the pictures to current  pictures stored in our database. 
 
+If it finds a match, it will output the known information of the individual in the photo, if not, then it will create a prompt for the user to input information about the person in the picture which will then be stored in the database for future use.
 
 ## How it was built
 
-
+The program uses the computers webcam and KAIROS facial recognition API to train the dataset in the KAIROS database to recognize various faces. It then runs ML algorithms using the KAIROS API to detect similarities in between different photos. 
 
 ## Challenges
 
+It is difficult to debug the facial recognition API.
 
+It was a challenge to implement django, rest API, and KAIROS API all in one.
 
-## Build status
-(FUTURE ENDAVORS)
-What state is the code in basically. Might remove as not very relevant rn.
+We had difficulty training the dataset originally.
 
-## Accomplishments
+## Future Endeavors
 
+Use of the Facebook Graph API to increase the possible scope of the ML training as well as the overall usefulness of the app.
 
-
-## What we learnt
-
-
+Use of the Twilio SMS API to send reports and updates over SMS to users of the app.
 
 ## Tech
 
-What tech it was built with/we are using ex python3, django, etc
-
-## Screenshots
-
-TEAM LOGO
-
-Demos screenshots etc
+MySQL, Django, Python3, Kairos API, boostrap4
 
 ## Running
 
@@ -70,13 +64,10 @@ A webpage landing should open
 
 Reference docs for Kairos Face Recognition API: https://www.kairos.com/docs/api/
 
-ADD KAIROS DATABASE
+KairosDB REST API: https://kairosdb.github.io/docs/build/html/restapi/index.html
 
-ADD DJANGO
-
-ADD MYSQL
+Django REST framework: https://www.django-rest-framework.org/ 
  
-
 ## Tests
 
 Testing the facial recognition software involves taking a picture with your webcam. 
@@ -87,13 +78,9 @@ the program will generate a user info page which he or she will be prompted to f
 Upon filling out and submitting the information, the users info will be stored in the 
 database along with all pictures taken of said person in order for more accurate identification in the future.
 
-
 ## Contributors
 
-<!TODO
+Rajat Arora
+Arash Manpreet Singh
+Suthan Sinnathurai 
 
-## Credits
-
-This should include credits to whoevers code we stole etc.
-	
-<!TODO
